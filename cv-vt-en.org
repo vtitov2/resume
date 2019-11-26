@@ -7,6 +7,9 @@
 #+AUTHOR: Valentin Titov
 #+DESCRIPTION: cv
 
+# edit w/ browser-sync
+# npm install browser-sync --save-dev
+# browser-sync start  --serveStatic  resume/ -w
 
 <<header>>
 * {{{author}}}
