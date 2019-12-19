@@ -2,7 +2,7 @@
 
 === Work Experience ===
 
-==== Tech Lead at Large Financial Institution ====
+==== Tech Lead at Sberbank ====
 November 2015 -- currently
 
 * Business applications development.
