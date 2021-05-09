@@ -10,9 +10,13 @@
 # edit w/ browser-sync
 # npm install browser-sync --save-dev
 # browser-sync start  --serveStatic  resume/ -w
-
+# lynx http://localhost:3000/cv-vt-en.html
+# pandoc -t asciidoc -o README.adoc cv-vt-en.org
+# emacs: org-ascii-export-to-ascii
+#
 <<header>>
-* {{{author}}}
+# * {{{author}}}
+* Valentin Titov  
   :PROPERTIES:
   :CUSTOM_ID: valentin-titov
   :END:
@@ -20,69 +24,60 @@
 
 <<content>>
 
+** Summary
+- Years of experience in software development methodologies, practices,
+  technologies, management.
+- Responsibilities for all stages of software product life-cycle,
+  various roles in software development process.
+- Contribution into software releases:
+  collaboration with customers, requirements clarification.
+  planning, specification, resource
+  allocation, development, testing, cross-functional/cross-tool
+  issues coordination.
+- Starting new projects, new teams, new development site. Hiring,
+  building, mentoring teams. Infrastructure planning.
+- Legacy software support. Tier III support.
+   
+
 ** Work Experience
    :PROPERTIES:
    :CUSTOM_ID: _work_experience
    :END:
-
-*** Tech Lead at Sberbank
+   
+*** Team Lead at Sberbank (November 2015 -- currently)
     :PROPERTIES:
     :CUSTOM_ID: _financial_institution
     :END:
-
-November 2015 -- currently
-
-- Business applications development.
-
-- ETL tools development for hadoop and openshift environments.
-
-- Integration services development.
-
+- Business applications in the biggest bank in Central and Eastern Europe.
+- ETL tools, integration services for hadoop, openshift, jenkins environments.
 - Jenkins pipelines, plugins, workflows.
+- CI/CD, migration tools.
 
-- Deployment and migration tools.
-
-
-*** CTO at Telum LLC
+*** CTO at Telum LLC (March 2014 -- November 2015)
     :PROPERTIES:
     :CUSTOM_ID: _telum
     :END:
-
-March 2014 -- November 2015
-
-- 4G wireless mobile equipment R&D management.
-
-- Embedded systems, control and monitoring systems:
-
-  - LTE small cells (eNodeB, mobile base station) hardware platform
-    development.
-
-  - Planning and managing software releases.
+- Wireless mobile equipment R&D.
+- Embedded systems, control and monitoring systems.
+- LTE small cells (eNodeB, mobile base station) hardware platform.
+- Automated test system for wireless network and devices.
 
 
-*** Software Architect at Cyberling
+*** Software Architect at Cyberling (January 2014 -- March 2014)
     :PROPERTIES:
     :CUSTOM_ID: _cyberling
     :END:
-
-January 2014 -- March 2014
-
 - Requirements and design for IVR systems with ASR & TTS capabilities.
-
 - VoIP, PBX, SIP, voice recognition, text-to-speech, avaya, freeswitch,
   asterisk.
 
-*** R&D manager at Cadence Design Systems
+*** R&D manager at Cadence Design Systems (October 2001 -- September 2013)
     :PROPERTIES:
     :CUSTOM_ID: _cadence
     :END:
-
-October 2001 -- September 2013
-
-- Complex EDA software products development and support in one of 3 main
-  EDA software development companies (Electronic design automation, IC
+- Complex EDA software products development and support in a major
+  EDA software development company (Electronic design automation, IC
   design CAD software).
-
 - Internal lectures on EDA tools and on software development practices,
   papers for corporate technical conference.
 
@@ -92,7 +87,6 @@ October 2001 -- September 2013
    :END:
 
 - Applied Mathematics, Engineer
-
 - Economics, Master
 
 ** Experience, Skills, Interests
@@ -101,58 +95,33 @@ October 2001 -- September 2013
    :END:
 
 - Project management, people management.
-
 - Requirements management.
-
+- Software releases planning and management.
 - Development, testing and deployment management.
-
-- Responsibilities on all stages of software
-  product life-cycle, various roles in software development process.
-
-- Contribution into software releases: planning, specification, resource
-  allocation, development, testing, cross-functional and cross-tool
-  issues coordination, collaboration with customers to clarify and
-  implement new requirements.
-
-- Starting new projects and new teams at new development site. Hiring,
-  building, coaching teams.
-
-- CM/DevOps (configuration management, build&test): regular builds, smoke
-  tests, integration tests, cross-platform issues. System administration,
-  infrastructure planning.
-
+- CM/DevOps (configuration management, build&test): planning and setting up regular builds,
+  smoke/integration/performance/capacity testing, cross-platform issues.
+- System administration.
 - Economics, econometrics, banking software, financial markets.
-
 - Software development methodologies: Waterfall,
   XP/Agile/Lean/Scrum/Kanban, UML/ER.
 
-- Software development tools & technologies
-
+** Software development tools & technologies
   - Compiled languages: c/c++/fortran.
-
   - Scripting: perl/python/bash/shell/tcl/groovy.
-
   - FP: haskell/caml/lisp.
-
   - Assemblers.
-
-  - JVM: java/scala/groovy, maven/sbt/gradle, jpa/jdbc/jms/jmx,
-    jax-ws/jax-rs/soap, rest/swagger, xml/xsd/jaxb, spring,
-    akka/http4s, scalaz/cats,
-    junit/testng, scalatest/specs2/scalacheck, spock.
-
+  - JVM: java/scala/groovy,
+    - maven/sbt/gradle, jpa/jdbc/jms/jmx,
+    - jax-ws/jax-rs/soap, rest/swagger/openapi, xml/xsd/jaxb, spring,
+    - scalaz/cats, akka/http4s,
+    - junit/testng, scalatest/specs2/scalacheck, spock.
   - JS: javascript, typescript, node.js, react, scalajs.
-
   - OS: linux (gentoo/redhat/suse/ubuntu/arch/debian/t2), solaris, aix,
     hp-ux, windows, qnx.
-
   - DB: SQL, relational algebra, postgres/oracle/mysql, liquibase.
-
   - Bigdata: hadoop/oozie/yarn/mapreduce/spark/hive/kafka/hdfs/s3.
-
   - DevOps: ansible, docker, jenkins, openshift, robotframework, git/svn,
     perforce/clearcase.
-
 
 
 # Local variables:

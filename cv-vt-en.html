@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-26 Вт 18:33 -->
+<!-- 2021-05-09 нд 15:45 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -42,7 +42,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -54,7 +54,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -196,143 +196,110 @@
   /*]]>*/-->
 </style>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <div id="content">
 <p>
-<a id="org9c95194"></a>
+<a id="org5a30a61"></a>
 </p>
-<div id="outline-container-org0505e75" class="outline-2">
+<div id="outline-container-valentin-titov" class="outline-2">
 <h2 id="valentin-titov">Valentin Titov</h2>
 <div class="outline-text-2" id="text-valentin-titov">
 <p>
-<a id="orgcdfb4a7"></a>
+<a id="orga010f56"></a>
 </p>
 </div>
 
-<div id="outline-container-orgab05d2f" class="outline-3">
+<div id="outline-container-orgde101b2" class="outline-3">
+<h3 id="orgde101b2">Summary</h3>
+<div class="outline-text-3" id="text-orgde101b2">
+<ul class="org-ul">
+<li>Years of experience in software development methodologies, practices,
+technologies, management.</li>
+<li>Responsibilities for all stages of software product life-cycle,
+various roles in software development process.</li>
+<li>Contribution into software releases:
+collaboration with customers, requirements clarification.
+planning, specification, resource
+allocation, development, testing, cross-functional/cross-tool
+issues coordination.</li>
+<li>Starting new projects, new teams, new development site. Hiring,
+building, mentoring teams. Infrastructure planning.</li>
+<li>Legacy software support. Tier III support.</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-_work_experience" class="outline-3">
 <h3 id="_work_experience">Work Experience</h3>
 <div class="outline-text-3" id="text-_work_experience">
 </div>
 
-<div id="outline-container-org40bfafa" class="outline-4">
-<h4 id="_financial_institution">Tech Lead at Sberbank</h4>
+<div id="outline-container-_financial_institution" class="outline-4">
+<h4 id="_financial_institution">Team Lead at Sberbank (November 2015 &#x2013; currently)</h4>
 <div class="outline-text-4" id="text-_financial_institution">
-<p>
-November 2015 &#x2013; currently
-</p>
-
 <ul class="org-ul">
-<li>Business applications development.</li>
-
-<li>ETL tools development for hadoop and openshift environments.</li>
-
-<li>Integration services development.</li>
-
+<li>Business applications in the biggest bank in Central and Eastern Europe.</li>
+<li>ETL tools, integration services for hadoop, openshift, jenkins environments.</li>
 <li>Jenkins pipelines, plugins, workflows.</li>
-
-<li>Deployment and migration tools.</li>
+<li>CI/CD, migration tools.</li>
 </ul>
 </div>
 </div>
 
-
-<div id="outline-container-orgada95b1" class="outline-4">
-<h4 id="_telum">CTO at Telum LLC</h4>
+<div id="outline-container-_telum" class="outline-4">
+<h4 id="_telum">CTO at Telum LLC (March 2014 &#x2013; November 2015)</h4>
 <div class="outline-text-4" id="text-_telum">
-<p>
-March 2014 &#x2013; November 2015
-</p>
-
 <ul class="org-ul">
-<li>4G wireless mobile equipment R&amp;D management.</li>
-
-<li>Embedded systems, control and monitoring systems:
-
-<ul class="org-ul">
-<li>LTE small cells (eNodeB, mobile base station) hardware platform
-development.</li>
-
-<li>Planning and managing software releases.</li>
-</ul></li>
+<li>Wireless mobile equipment R&amp;D.</li>
+<li>Embedded systems, control and monitoring systems.</li>
+<li>LTE small cells (eNodeB, mobile base station) hardware platform.</li>
+<li>Automated test system for wireless network and devices.</li>
 </ul>
 </div>
 </div>
 
 
-<div id="outline-container-org2c86441" class="outline-4">
-<h4 id="_cyberling">Software Architect at Cyberling</h4>
+<div id="outline-container-_cyberling" class="outline-4">
+<h4 id="_cyberling">Software Architect at Cyberling (January 2014 &#x2013; March 2014)</h4>
 <div class="outline-text-4" id="text-_cyberling">
-<p>
-January 2014 &#x2013; March 2014
-</p>
-
 <ul class="org-ul">
 <li>Requirements and design for IVR systems with ASR &amp; TTS capabilities.</li>
-
 <li>VoIP, PBX, SIP, voice recognition, text-to-speech, avaya, freeswitch,
 asterisk.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga5b3aa0" class="outline-4">
-<h4 id="_cadence">R&amp;D manager at Cadence Design Systems</h4>
+<div id="outline-container-_cadence" class="outline-4">
+<h4 id="_cadence">R&amp;D manager at Cadence Design Systems (October 2001 &#x2013; September 2013)</h4>
 <div class="outline-text-4" id="text-_cadence">
-<p>
-October 2001 &#x2013; September 2013
-</p>
-
 <ul class="org-ul">
-<li>Complex EDA software products development and support in one of 3 main
-EDA software development companies (Electronic design automation, IC
+<li>Complex EDA software products development and support in a major
+EDA software development company (Electronic design automation, IC
 design CAD software).</li>
-
 <li>Internal lectures on EDA tools and on software development practices,
 papers for corporate technical conference.</li>
 </ul>
@@ -340,75 +307,56 @@ papers for corporate technical conference.</li>
 </div>
 </div>
 
-<div id="outline-container-org1188eed" class="outline-3">
+<div id="outline-container-_education" class="outline-3">
 <h3 id="_education">Education</h3>
 <div class="outline-text-3" id="text-_education">
 <ul class="org-ul">
 <li>Applied Mathematics, Engineer</li>
-
 <li>Economics, Master</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org404bee8" class="outline-3">
+<div id="outline-container-_skills_and_experience" class="outline-3">
 <h3 id="_skills_and_experience">Experience, Skills, Interests</h3>
 <div class="outline-text-3" id="text-_skills_and_experience">
 <ul class="org-ul">
 <li>Project management, people management.</li>
-
 <li>Requirements management.</li>
-
+<li>Software releases planning and management.</li>
 <li>Development, testing and deployment management.</li>
-
-<li>Responsibilities on all stages of software
-product life-cycle, various roles in software development process.</li>
-
-<li>Contribution into software releases: planning, specification, resource
-allocation, development, testing, cross-functional and cross-tool
-issues coordination, collaboration with customers to clarify and
-implement new requirements.</li>
-
-<li>Starting new projects and new teams at new development site. Hiring,
-building, coaching teams.</li>
-
-<li>CM/DevOps (configuration management, build&amp;test): regular builds, smoke
-tests, integration tests, cross-platform issues. System administration,
-infrastructure planning.</li>
-
+<li>CM/DevOps (configuration management, build&amp;test): planning and setting up regular builds,
+smoke/integration/performance/capacity testing, cross-platform issues.</li>
+<li>System administration.</li>
 <li>Economics, econometrics, banking software, financial markets.</li>
-
 <li>Software development methodologies: Waterfall,
 XP/Agile/Lean/Scrum/Kanban, UML/ER.</li>
+</ul>
+</div>
+</div>
 
-<li>Software development tools &amp; technologies
-
+<div id="outline-container-orged147bd" class="outline-3">
+<h3 id="orged147bd">Software development tools &amp; technologies</h3>
+<div class="outline-text-3" id="text-orged147bd">
 <ul class="org-ul">
 <li>Compiled languages: c/c++/fortran.</li>
-
 <li>Scripting: perl/python/bash/shell/tcl/groovy.</li>
-
 <li>FP: haskell/caml/lisp.</li>
-
 <li>Assemblers.</li>
-
-<li>JVM: java/scala/groovy, maven/sbt/gradle, jpa/jdbc/jms/jmx,
-jax-ws/jax-rs/soap, rest/swagger, xml/xsd/jaxb, spring,
-akka/http4s, scalaz/cats,
-junit/testng, scalatest/specs2/scalacheck, spock.</li>
-
+<li>JVM: java/scala/groovy,
+<ul class="org-ul">
+<li>maven/sbt/gradle, jpa/jdbc/jms/jmx,</li>
+<li>jax-ws/jax-rs/soap, rest/swagger/openapi, xml/xsd/jaxb, spring,</li>
+<li>scalaz/cats, akka/http4s,</li>
+<li>junit/testng, scalatest/specs2/scalacheck, spock.</li>
+</ul></li>
 <li>JS: javascript, typescript, node.js, react, scalajs.</li>
-
 <li>OS: linux (gentoo/redhat/suse/ubuntu/arch/debian/t2), solaris, aix,
 hp-ux, windows, qnx.</li>
-
 <li>DB: SQL, relational algebra, postgres/oracle/mysql, liquibase.</li>
-
 <li>Bigdata: hadoop/oozie/yarn/mapreduce/spark/hive/kafka/hdfs/s3.</li>
-
 <li>DevOps: ansible, docker, jenkins, openshift, robotframework, git/svn,
 perforce/clearcase.</li>
-</ul></li>
 </ul>
 </div>
 </div>

@@ -1,61 +1,68 @@
 Valentin Titov
+
+
+
+
+
+Valentin Titov
 ==============
+
+
+
+
+Summary
+~~~~~~~
+
+  - Years of experince in software development methodologies, practices,
+    technologies, management.
+  - Responsibilities for all stages of software product life-cycle,
+    various roles in software development process.
+  - Contribution into software releases: collaboration with customers,
+    requirements clarification.  planning, specification, resource
+    allocation, development, testing, cross-functional/cross-tool issues
+    coordination.
+  - Starting new projects, new teams, new development site. Hiring,
+    building, mentoring teams. Infrastructure planning.
+  - Legacy software support. Tier III support.
 
 
 Work Experience
 ~~~~~~~~~~~~~~~
 
-Tech Lead at Sberbank
----------------------
+Team Lead at Sberbank (November 2015 -- currently)
+--------------------------------------------------
 
-  November 2015 -- currently
-
-  - Business applications development.
-
-  - ETL tools development for hadoop and openshift environments.
-
-  - Integration services development.
-
+  - Business applications in the biggest bank in Central and Eastern
+    Europe.
+  - ETL tools, integration services for hadoop, openshift, jenkins
+    environments.
   - Jenkins pipelines, plugins, workflows.
-
-  - Deployment and migration tools.
-
-
-CTO at Telum LLC
-----------------
-
-  March 2014 -- November 2015
-
-  - 4G wireless mobile equipment R&D management.
-
-  - Embedded systems, control and monitoring systems:
-
-    - LTE small cells (eNodeB, mobile base station) hardware platform
-      development.
-
-    - Planning and managing software releases.
+  - CI/CD, migration tools.
 
 
-Software Architect at Cyberling
--------------------------------
+CTO at Telum LLC (March 2014 -- November 2015)
+----------------------------------------------
 
-  January 2014 -- March 2014
+  - Wireless mobile equipment R&D.
+  - Embedded systems, control and monitoring systems.
+  - LTE small cells (eNodeB, mobile base station) hardware platform.
+  - Automated test system for wireless network and devices.
+
+
+Software Architect at Cyberling (January 2014 -- March 2014)
+------------------------------------------------------------
 
   - Requirements and design for IVR systems with ASR & TTS capabilities.
-
   - VoIP, PBX, SIP, voice recognition, text-to-speech, avaya,
     freeswitch, asterisk.
 
 
-R&D manager at Cadence Design Systems
--------------------------------------
+R&D manager at Cadence Design Systems (October 2001 -- September 2013)
+----------------------------------------------------------------------
 
-  October 2001 -- September 2013
-
-  - Complex EDA software products development and support in one of 3
-    main EDA software development companies (Electronic design
-    automation, IC design CAD software).
-
+  - Complex EDA software products development and support in a major EDA
+    software development company (Electronic design automation, IC
+    design CAD software).
   - Internal lectures on EDA tools and on software development
     practices, papers for corporate technical conference.
 
@@ -64,7 +71,6 @@ Education
 ~~~~~~~~~
 
   - Applied Mathematics, Engineer
-
   - Economics, Master
 
 
@@ -72,54 +78,34 @@ Experience, Skills, Interests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - Project management, people management.
-
   - Requirements management.
-
+  - Software releases planning and management.
   - Development, testing and deployment management.
-
-  - Responsibilities on all stages of software product life-cycle,
-    various roles in software development process.
-
-  - Contribution into software releases: planning, specification,
-    resource allocation, development, testing, cross-functional and
-    cross-tool issues coordination, collaboration with customers to
-    clarify and implement new requirements.
-
-  - Starting new projects and new teams at new development site. Hiring,
-    building, coaching teams.
-
-  - CM/DevOps (configuration management, build&test): regular builds,
-    smoke tests, integration tests, cross-platform issues. System
-    administration, infrastructure planning.
-
+  - CM/DevOps (configuration management, build&test): planning and
+    setting up regular builds, smoke/integration/performance/capacity
+    testing, cross-platform issues.
+  - System administration.
   - Economics, econometrics, banking software, financial markets.
-
   - Software development methodologies: Waterfall,
     XP/Agile/Lean/Scrum/Kanban, UML/ER.
 
-  - Software development tools & technologies
 
-    - Compiled languages: c/c++/fortran.
+Software development tools & technologies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - Scripting: perl/python/bash/shell/tcl/groovy.
-
-    - FP: haskell/caml/lisp.
-
-    - Assemblers.
-
-    - JVM: java/scala/groovy, maven/sbt/gradle, jpa/jdbc/jms/jmx,
-      jax-ws/jax-rs/soap, rest/swagger, xml/xsd/jaxb, spring,
-      akka/http4s, scalaz/cats, junit/testng,
-      scalatest/specs2/scalacheck, spock.
-
-    - JS: javascript, typescript, node.js, react, scalajs.
-
-    - OS: linux (gentoo/redhat/suse/ubuntu/arch/debian/t2), solaris,
-      aix, hp-ux, windows, qnx.
-
-    - DB: SQL, relational algebra, postgres/oracle/mysql, liquibase.
-
-    - Bigdata: hadoop/oozie/yarn/mapreduce/spark/hive/kafka/hdfs/s3.
-
-    - DevOps: ansible, docker, jenkins, openshift, robotframework,
-      git/svn, perforce/clearcase.
+  - Compiled languages: c/c++/fortran.
+  - Scripting: perl/python/bash/shell/tcl/groovy.
+  - FP: haskell/caml/lisp.
+  - Assemblers.
+  - JVM: java/scala/groovy,
+    - maven/sbt/gradle, jpa/jdbc/jms/jmx,
+    - jax-ws/jax-rs/soap, rest/swagger/openapi, xml/xsd/jaxb, spring,
+    - scalaz/cats, akka/http4s,
+    - junit/testng, scalatest/specs2/scalacheck, spock.
+  - JS: javascript, typescript, node.js, react, scalajs.
+  - OS: linux (gentoo/redhat/suse/ubuntu/arch/debian/t2), solaris, aix,
+    hp-ux, windows, qnx.
+  - DB: SQL, relational algebra, postgres/oracle/mysql, liquibase.
+  - Bigdata: hadoop/oozie/yarn/mapreduce/spark/hive/kafka/hdfs/s3.
+  - DevOps: ansible, docker, jenkins, openshift, robotframework,
+    git/svn, perforce/clearcase.
