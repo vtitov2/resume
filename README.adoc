@@ -1,10 +1,12 @@
-Valentin I. Titov
------------------
+[#header]##
 
-Summary
-~~~~~~~
+== Valentin Titov
 
-* Years of experince in software development methodologies, practices,
+[#content]##
+
+=== Summary
+
+* Experience in software development methodologies, practices,
 technologies, management.
 * Responsibilities for all stages of software product life-cycle,
 various roles in software development process.
@@ -16,36 +18,36 @@ coordination.
 building, mentoring teams. Infrastructure planning.
 * Legacy software support. Tier III support.
 
-Work Experience
-~~~~~~~~~~~~~~~
+[[_work_experience]]
+=== Work Experience
 
-Team Lead at Sberbank (November 2015 -- currently)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_financial_institution]]
+==== Team Lead at Sberbank (November 2015 – currently)
 
-* Business applications in the biggest bank in Central and Eastern
-Europe.
-* ETL tools, integration services for hadoop, openshift, jenkins
-environments.
-* Jenkins pipelines, plugins, workflows.
-* CI/CD, migration tools.
+* Business-critical systems development and support in the biggest bank
+in Central and Eastern Europe.
+* ETL tools, integration services for hadoop, openshift, jenkins and
+other environments.
+* CI/CD; Jenkins pipelines, plugins, workflows; migration tools;
+observability.
 
-CTO at Telum LLC (March 2014 -- November 2015)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_telum]]
+==== CTO at Telum LLC (March 2014 – November 2015)
 
 * Wireless mobile equipment R&D.
 * Embedded systems, control and monitoring systems.
 * LTE small cells (eNodeB, mobile base station) hardware platform.
 * Automated test system for wireless network and devices.
 
-Software Architect at Cyberling (January 2014 -- March 2014)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_cyberling]]
+==== Software Architect at Cyberling (January 2014 – March 2014)
 
 * Requirements and design for IVR systems with ASR & TTS capabilities.
 * VoIP, PBX, SIP, voice recognition, text-to-speech, avaya, freeswitch,
 asterisk.
 
-R&D manager at Cadence Design Systems (October 2001 -- September 2013)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_cadence]]
+==== R&D manager at Cadence Design Systems (October 2001 – September 2013)
 
 * Complex EDA software products development and support in a major EDA
 software development company (Electronic design automation, IC design
@@ -53,29 +55,27 @@ CAD software).
 * Internal lectures on EDA tools and on software development practices,
 papers for corporate technical conference.
 
-Education
-~~~~~~~~~
+[[_education]]
+=== Education
 
 * Applied Mathematics, Engineer
 * Economics, Master
 
-Experience, Skills, Interests
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[_skills_and_experience]]
+=== Experience, Skills, Interests
 
-* Project management, people management.
-* Requirements management.
-* Software releases planning and management.
+* Project management, people management, requirements management,
+software releases planning and management.
 * Development, testing and deployment management.
-* CM/DevOps (configuration management, build&test): planning and setting
-up regular builds, smoke/integration/performance/capacity testing,
-cross-platform issues.
+* CM/DevOps (configuration management, build&test): regular builds,
+smoke/integration/performance/capacity testing, cross-platform issues.
 * System administration.
+* Leetcode rank: top 1000, solved problems: 2100+.
 * Economics, econometrics, banking software, financial markets.
 * Software development methodologies: Waterfall,
 XP/Agile/Lean/Scrum/Kanban, UML/ER.
 
-Software development tools & technologies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Software development tools & technologies
 
 * Compiled languages: c/c++/fortran.
 * Scripting: perl/python/bash/shell/tcl/groovy.
@@ -84,12 +84,17 @@ Software development tools & technologies
 * JVM: java/scala/groovy,
 ** maven/sbt/gradle, jpa/jdbc/jms/jmx,
 ** jax-ws/jax-rs/soap, rest/swagger/openapi, xml/xsd/jaxb, spring,
-** scalaz/cats, akka/http4s,
+** scalaz/cats/akka/zio,
 ** junit/testng, scalatest/specs2/scalacheck, spock.
-* JS: javascript, typescript, node.js, react, scalajs.
-* OS: linux (gentoo/redhat/suse/ubuntu/arch/debian/t2), solaris, aix,
+* JS: javascript, typescript, node.js, webpack, react, scalajs.
+* OS: linux (gentoo/redhat/suse/ubuntu/debian/arch), solaris, aix,
 hp-ux, windows, qnx.
 * DB: SQL, relational algebra, postgres/oracle/mysql, liquibase.
-* Bigdata: hadoop/oozie/yarn/mapreduce/spark/hive/kafka/hdfs/s3.
-* DevOps: ansible, docker, jenkins, openshift, robotframework, git/svn,
-perforce/clearcase.
+* Bigdata:
+hadoop/oozie/yarn/mapreduce/spark/hive/kafka/kafka-tables/hdfs/s3.
+* DevOps: jenkins/ansible, docker/podman/openshift, robotframework,
+git/svn, perforce/clearcase.
+
+=== Contact
+
+vtitov2025@gmail.com
